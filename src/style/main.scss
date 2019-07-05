@@ -1,0 +1,278 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal
+}
+@font-face {
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-style: normal
+}
+@font-face {
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-style: normal
+}
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&display=swap');
+@media screen and (max-width: 768px) {
+
+  header{
+
+    .logo{
+      width: 100% !important;
+      height: 30%;
+    }
+    .menu{
+      height: 50% !important;
+    }
+    .title{
+      margin: 0 !important;
+      top: 50% !important;
+    }
+  }
+  .image{
+    height: 25% !important;
+    width: 50% !important;
+  }
+  .service-container{
+    padding: 20px 0;
+
+    .mobile-development{
+      background-color: #EBEBEB !important;
+    }
+    .seo-marketing{
+      background-color: #DBDBDB !important;
+    }
+  }
+}
+
+body{
+
+  h1{
+    font-family: ProximaNova, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #ffffff;
+  }
+  h2{
+    font-family: ProximaNova, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+  }
+  h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+    color: #ffffff;
+  }
+  h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #665F60;
+  }
+  h5{
+    font-family: ProximaNova, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  h6{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+  }
+  p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  h1, h2, h3, h4, h5, h6, p, a{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  button{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+  }
+
+  header{
+     height: 100vh;
+     padding: 0 10% !important;
+     background: url("../img/header/background.png") center no-repeat;
+     background-size: 100% 100%;
+
+     .menu{
+       height: 20%;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: 0;
+
+       .active{
+         opacity: 0.5;
+
+         &:hover{
+           opacity: 1;
+         }
+       }
+       h5:hover{
+         opacity: 0.5;
+       }
+     }
+     .burger-menu{
+       width: 100% !important;
+       height: 50%;
+     }
+     .title{
+       top: 40%;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       margin: 0;
+
+
+       h1{
+         margin-bottom: 20px !important;
+       }
+     }
+   }
+  main{
+    section{
+      padding: 0 10% !important;
+      background-color: #EBEBEB;
+    }
+    .about{
+      height: 100vh;
+
+      .image{
+        background: url("../img/about/about-foto.png") center no-repeat;
+        background-size: cover;
+      }
+      button{
+        margin-top: 100px;
+      }
+    }
+    .services{
+      height: 100vh;
+
+      .service-container{
+        height: 100%;
+
+        .title{
+          background: url("../img/services/title.png") center no-repeat;
+          background-size: cover;
+
+          p{
+            color: #ffffff !important;
+          }
+        }
+        .graphic-design{
+          background-color: #DBDBDB;
+        }
+        .mobile-development{
+          background-color: #DBDBDB;
+        }
+        p{
+          font-style: italic;
+        }
+      }
+    }
+    .works{
+      height: 100vh;
+      background: url("../img/works/works-bg.png") center no-repeat;
+      background-size: 100% 100%;
+
+      .works__slides{
+        height: 65%;
+
+        ol{
+          top: 0 !important;
+
+          .active{
+            background: #ffffff;
+          }
+          li{
+            width: 10px;
+            height: 10px;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            background: none;
+          }
+        }
+      }
+      button{
+        border: 2px solid #ffffff !important;
+
+        &:hover{
+          color: #B0ADD0 !important;
+          background-color: #ffffff;
+        }
+      }
+    }
+    .contact{
+      height: 100vh;
+      position: relative;
+
+      .map-container{
+        height: 100%;
+        width: 100%;
+
+        .map-background{
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .contact-container{
+        height: 100%;
+        width: 100%;
+        background-color: #9F9ACF;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+      }
+    }
+  }
+  footer{
+    height: 25vh;
+    background-color: #9F9ACF;
+    padding: 0 10%!important;
+
+    .icon-google{
+      background: url("../img/footer/google+.svg") no-repeat;
+    }
+    .icon-facebook{
+      background: url("../img/footer/facebook.svg") no-repeat;
+    }
+    .icon-twitter{
+      background: url("../img/footer/twitter.svg") no-repeat;
+    }
+    .icon-linkedin{
+      background: url("../img/footer/linked-in.svg") no-repeat;
+    }
+    .icon-behance{
+      background: url("../img/footer/behance.svg") no-repeat;
+    }
+    .icon{
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+
+
